@@ -1,0 +1,46 @@
+html,body{
+    height : 100vh;
+}
+
+body{
+    margin : 0px;
+    background-image: url("/home/punch/Desktop/odin/foundations/dir/rock_paper_scissors/img/wallhaven-l83o92_1920x1080.png");
+    background-size : 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.tdisplay{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tdisplay {
+    width : 900px;
+}
+
+.text{
+    animation: slide 3s ease-in-out 100ms ;
+    width : auto ;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    color: azure;
+    font-family: monospace;
+}
+
+@keyframes slide {
+    0% {
+            transform : translateX(-150%) ;
+    }
+
+    100% {
+        transform : translateX(0%);
+    }
+    
+}
+

@@ -1,3 +1,16 @@
+/* this is ui code */
+
+
+const textrm = document.querySelector(".tdisplay");
+textrm.addEventListener('animationend',removetext);
+
+function removetext(e){
+    textrm.removeChild(textrm.firstChild);
+    textrm.remove();
+}
+
+/* this is ui code  */
+
 
 /* gets user */
 let rock="rock";
